@@ -9,4 +9,4 @@ __pycache__
 .cdk.staging
 cdk.out
 
-docker/botsv3_data_set.tgz
+botsv3_data_set.tgz

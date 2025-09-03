@@ -1,11 +1,12 @@
 # Splunk Boss of the SOC Playground
 
-Once upon a time, Splunk provided a free hosted instance loaded with BOTS data. Sadly, this is no more.
+A locally hosted Splunk Enterprise instance, loaded with the Boss of the SOC v3 dataset. Intended to be used for short term applications like testing, workshops, training etc.
 
-This project provides a self hosted alternative. It's intended to be used for short term applications like workshops or training.
+# Getting Started
+Clone this repo, make sure [Docker](https://docs.docker.com/desktop/) is installed, then:
+```
+./run-splunk.sh
+```
 
-# Build and Deploy
-```
-./build-and-push.sh
-cdk deploy
-```
+That's it. Splunk is now available at http://127.0.0.1:8000/. Login with user "admin" and the password you specified when you ran the script.
+
